@@ -3,7 +3,7 @@
 
 ## A website about space.
 
-| ![Asteroid.png](public\Asteroid.png) |
+| ![Asteroid.png](public/Asteroid.png) |
 |:--:| 
 | *Space* |
 
