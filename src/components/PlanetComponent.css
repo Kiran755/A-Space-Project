@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.PlanetHolder {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.planet {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.Sun {
+    height: 90vh;
+    width: 300px;
+    overflow: hidden;
+}
+
+.SunSource {
+    height: 100%;
+}
+
+.planetSource {
+    width: 100%;
+}
