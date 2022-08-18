@@ -15,3 +15,8 @@
 |:--:|
 |*Credits:<a href="http://www.freepik.com">Designed by vectorpouch / Freepik</a>*|
 
+## Custom Assets
+
+|![Earth](/src/components/assets/earth.svg)|
+|:--:|
+|*These were inspired from <a href="https://www.youtube.com/c/inanutshell">Kurzgesagt</a>*|
