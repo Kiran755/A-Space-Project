@@ -1,0 +1,40 @@
+.normalNav {
+    display: none !important;
+    border: 1px solid red;
+}
+
+.HeaderNav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.closeNav {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 10;
+
+}
+
+.ToggleButtonNavbar {
+    padding: 0px 10px;
+    opacity: 0.4;
+    background: none;
+    color: rgb(70, 6, 99);
+    border: 1px solid white;
+}
+
+.AngleUp {
+    color: white;
+}
+
+.AngleDown {
+    color: black;
+}
+
+.ToggleButtonNavbar:hover {
+    opacity: 1;
+    color: white;
+}
