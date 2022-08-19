@@ -1,14 +1,14 @@
-<svg width="1629" height="1669" viewBox="0 0 1629 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1319" height="1359" viewBox="0 0 1319 1359" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_di_26_111)">
-<ellipse cx="814.5" cy="830.5" rx="485.5" ry="505.5" fill="url(#paint0_linear_26_111)" shape-rendering="crispEdges"/>
+<ellipse cx="659.5" cy="675.5" rx="485.5" ry="505.5" fill="url(#paint0_linear_26_111)" shape-rendering="crispEdges"/>
 </g>
 <defs>
-<filter id="filter0_di_26_111" x="0" y="0" width="1629" height="1669" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_di_26_111" x="0" y="0" width="1356" height="1359" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feMorphology radius="188" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_26_111"/>
+<feMorphology radius="32" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_26_111"/>
 <feOffset dy="4"/>
-<feGaussianBlur stdDeviation="70.5"/>
+<feGaussianBlur stdDeviation="71"/>
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.54 0 0 0 0 0 0 0 0 1 0"/>
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_26_111"/>
@@ -20,7 +20,7 @@
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.0291666 0 0 0 0 0.0291666 0 0 0 0.6 0"/>
 <feBlend mode="normal" in2="shape" result="effect2_innerShadow_26_111"/>
 </filter>
-<linearGradient id="paint0_linear_26_111" x1="302.445" y1="423.275" x2="845.536" y2="1295.95" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_26_111" x1="147.445" y1="268.275" x2="690.536" y2="1140.95" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FFE600"/>
 <stop offset="1" stop-color="#FF3D00" stop-opacity="0.4"/>
 </linearGradient>
