@@ -16,8 +16,12 @@
 
 .planet {
     width: 300px;
-    height: 300px;
-    border: 1px solid black;
+    height: 400px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -39,9 +43,72 @@
     padding: 0;
     margin: 0;
     width: 100%;
+    animation: updown 5s ease-in infinite;
+}
+
+@keyframes updown {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+
+.planetHandlerIcons {
+    color: #01fff0;
+    opacity: 0.5;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.planetHandlerIcons:hover {
+    opacity: 1;
 
 }
 
 .planetSource:focus {
     box-shadow: none;
+}
+
+@media (max-width:500px) {
+    .PlanetHolder {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .planet {
+        width: 100vw;
+        height: 200px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .planetSource {
+        width: 50%;
+
+    }
+
+    .Sun {
+
+        height: 50vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .SunSource {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 200px;
+    }
 }
