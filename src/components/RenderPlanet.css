@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.PlanetContainer {
+    background-color: black;
+    width: 100vw;
+    min-height: 100vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PlanetSVG>img {
+    /* border: 1px solid white; */
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.PlanetData {
+    border: 1px solid white;
+    color: aqua;
+
+}
+
+
+@media (max-width:800px) {
+    .PlanetContainer {
+        flex-direction: column;
+    }
+}
