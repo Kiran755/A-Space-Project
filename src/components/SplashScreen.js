@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Splashscreen.css";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import Rocket from "./assets/rocket.svg";
+import { useNavigate } from "react-router-dom";
 const SplashScreen = () => {
+    const navigate = useNavigate();
+    const [isDone, setDone] = useState(false);
+    const HandleButtonClick = () => {
+        setDone(true);
+        setTimeout(() => {
+            navigate("/planets");
+        }, 5100)
+    }
     return (
         <div className='customBox'>
             {/* <h1 >Lets Explore.</h1> */}
@@ -17,7 +27,22 @@ const SplashScreen = () => {
             >
                 Lets Explore.
             </motion.h1>
-            <button className='button'>Explore</button>
+            <motion.button className='button' onClick={HandleButtonClick}
+            >Lift Off</motion.button>
+            <motion.i
+
+
+                initial={{
+                    opacity: 0,
+                    x: "-80vh",
+                    y: 0
+                }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 7 }}
+                className={isDone ? "fa-solid fa-shuttle-space rocket-after" : "fa-solid fa-shuttle-space rocket"}
+            >
+
+            </motion.i>
         </div>
 
     )

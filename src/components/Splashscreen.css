@@ -4,6 +4,13 @@
 
 }
 
+.rocketStyle {
+    border: 1px solid white;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
 .customBox {
     position: relative;
     border: 1px solid black;
@@ -13,7 +20,39 @@
         url("/public/backImage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 
+}
+
+.rocket {
+    color: white;
+    width: 40px;
+    position: absolute;
+    top: 62%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(-90deg);
+    font-size: 28px;
+
+    /* border: 1px solid white; */
+}
+
+
+.rocket-after {
+    color: white;
+    width: 40px;
+    position: absolute;
+    top: 62%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 28px;
+    /* border: 1px solid white; */
+    offset-path: path("M 20 14 C 700 -19 138 -396 -76 -394");
+
+    animation: afterpath 5s cubic-bezier(0.95, 0, 0.69, 0.19) forwards;
+    /* animation-delay: 10s; */
 }
 
 .customH1 {
@@ -23,6 +62,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 8rem;
+    /* offset-path: path("M 0 0 C -113.3333 80 -540 420 -40 -360"); */
+    /* animation: path 5s cubic-bezier(0.95, 0, 0.69, 0.19) infinite; */
 }
 
 .button {
@@ -38,7 +79,31 @@
     opacity: 0;
     animation: animate 3s linear forwards;
     animation-delay: 3s;
+    /* offset-path: path("M 0 0 C -113.3333 80 -540 420 -40 -360"); */
+    /* animation: path 5s cubic-bezier(0.95, 0, 0.69, 0.19) infinite; */
     cursor: pointer;
+}
+
+@keyframes path {
+    0% {
+        offset-distance: 0%;
+    }
+
+    100% {
+        offset-distance: 100%;
+    }
+}
+
+@keyframes afterpath {
+    0% {
+        offset-distance: 0%;
+        font-size: 28px;
+    }
+
+    100% {
+        offset-distance: 100%;
+        font-size: 0px;
+    }
 }
 
 .button:hover {
