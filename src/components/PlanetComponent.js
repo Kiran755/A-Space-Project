@@ -6,6 +6,7 @@ import Earth from './Earth';
 import Header from "./Header";
 import Mars from './Mars';
 import Venus from './Venus';
+import { Link, NavLink } from 'react-router-dom';
 
 const PlanetComponent = () => {
     const [planetNo, setPlanetNo] = useState(1);
@@ -23,14 +24,14 @@ const PlanetComponent = () => {
         switch (planetNo) {
             case 1:
                 return (
-                    <Mercury className="planetSource" />
+                    <Link to="/planets/1" className='LinkPlanets'><Mercury /></Link>
                 )
             case 2:
-                return <Venus className="planetSource" />
+                return <Link to="/planets/2" className='LinkPlanets'><Venus /></Link>
             case 3:
-                return <Earth className="planetSource" />
+                return <Link to="/planets/3" className='LinkPlanets'><Earth /></Link>
             case 4:
-                return <Mars className="planetSource" />
+                return <Link to="/planets/4" className='LinkPlanets'><Mars /></Link>
             default:
                 return <Earth className="planetSource" />
         }
@@ -52,11 +53,19 @@ const PlanetComponent = () => {
             <Header />
             <div className='PlanetHolder'>
                 <div className='planet'>
-                    <i className="fa-solid fa-angles-left planetHandlerIcons" onClick={Increment}></i>
-                    {HandlePlanet()}
-                    <i className="fa-solid fa-angles-right planetHandlerIcons" onClick={Decrement}></i>
-                    <h3 style={{ color: "#01fff0" }}>{HandleName()}</h3>
+                    <div className='terrestrial'>
+
+                        {HandlePlanet()}
+
+                    </div>
+                    <div className='controlUnits'>
+                        {(true) ? (<i className="fa-solid fa-angles-left planetHandlerIcons" onClick={Increment}></i>) : <span></span>}
+                        <h3 style={{ color: "#01fff0" }}>{HandleName()}</h3>
+                        {(true) ? (<i className="fa-solid fa-angles-right planetHandlerIcons" onClick={Decrement}></i>) : <span></span>}
+
+                    </div>
                 </div>
+
                 <div className='Sun'>
                     <img src={Sun} className="SunSource" alt="sun.svg"></img>
                 </div>

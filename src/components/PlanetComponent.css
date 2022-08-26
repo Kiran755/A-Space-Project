@@ -7,11 +7,16 @@
 .PlanetHolder {
     width: 100vw;
     height: 100vh;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
+}
+
+.LinkPlanets {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .planet {
@@ -23,6 +28,12 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.terrestrial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Sun {
@@ -39,11 +50,20 @@
 
 }
 
+.controlUnits {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    width: 100%;
+}
+
 .planetSource {
     padding: 0;
     margin: 0;
     width: 100%;
-    animation: updown 5s ease-in infinite;
+    /* animation: updown 5s ease-in infinite; */
 }
 
 @keyframes updown {
@@ -63,7 +83,7 @@
     color: #01fff0;
     opacity: 0.5;
     font-size: 20px;
-    margin: 5px;
+    margin: 15px;
     cursor: pointer;
 }
 
@@ -87,10 +107,21 @@
         height: 200px;
         margin-top: 100px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 
+    }
+
+    .LinkPlanets {
+        margin-top: 130px;
+    }
+
+
+    .terrestrial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .planetSource {
