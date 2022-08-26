@@ -52,22 +52,22 @@ const Header = () => {
                                         <Collapse isOpen={open} navbar>
                                             <Nav navbar className='SpreadNav'>
                                                 <NavItem>
-                                                    <NavLink className="nav-link custom-nav-item" to="/"><i className="fa-solid fa-house"></i>Home</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-house"></i>Home</NavLink>
                                                 </NavItem>
                                                 <NavItem>
                                                     <NavLink className="nav-link custom-nav-item" to="/planets/1"><i className="fa-solid fa-earth-oceania"></i>Planets</NavLink>
 
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink className="nav-link custom-nav-item" to="/"><i className="fa-solid fa-binoculars"></i>View</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-binoculars"></i>View</NavLink>
                                                 </NavItem>
                                                 <NavItem>
 
-                                                    <NavLink className="nav-link custom-nav-item" to="/"><i className="fa-solid fa-user"></i>About me</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-user"></i>About me</NavLink>
 
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink className="nav-link custom-nav-item" to="/"><i className="fa-solid fa-paper-plane"></i>Contact</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-paper-plane"></i>Contact</NavLink>
                                                 </NavItem>
                                             </Nav>
                                         </Collapse>
