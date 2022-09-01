@@ -56,7 +56,7 @@ const Header = () => {
                                                     <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-house"></i>Home</NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink className="nav-link custom-nav-item" to="/planets/1"><i className="fa-solid fa-earth-oceania"></i>Planets</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/List"><i className="fa-solid fa-earth-oceania"></i>Planets</NavLink>
 
                                                 </NavItem>
                                                 <NavItem>

@@ -6,6 +6,7 @@ import PlanetComponent from './components/PlanetComponent';
 import RenderPlanet from './components/RenderPlanet';
 import OrbitViewer from './components/OrbitViewer';
 import BottomNavbar from './components/BottomNavbar';
+import PlanetList from './components/PlanetList';
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/planets/:id" element={<RenderPlanet />}></Route>
         <Route path="/orbitviewer" element={<OrbitViewer />}></Route>
         <Route path="/bottom" element={<BottomNavbar />}></Route>
+        <Route path="/List" element={<PlanetList />}></Route>
       </Routes>
     </div>
   );
