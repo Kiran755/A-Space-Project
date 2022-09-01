@@ -1,7 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import "./Orbit.css"
-const OrbitViewer = () => {
+import { useNavigate } from 'react-router-dom';
+const AboutMe = () => {
     const navigate = useNavigate();
     const HandleBack = () => {
         navigate("/planets");
@@ -20,4 +19,4 @@ const OrbitViewer = () => {
     )
 }
 
-export default OrbitViewer
+export default AboutMe

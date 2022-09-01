@@ -60,15 +60,15 @@ const Header = () => {
 
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-binoculars"></i>View</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/orbitviewer"><i className="fa-solid fa-binoculars"></i>View</NavLink>
                                                 </NavItem>
                                                 <NavItem>
 
-                                                    <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-user"></i>About me</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/aboutme"><i className="fa-solid fa-user"></i>About me</NavLink>
 
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-paper-plane"></i>Contact</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/contact"><i className="fa-solid fa-paper-plane"></i>Contact</NavLink>
                                                 </NavItem>
                                             </Nav>
                                         </Collapse>
