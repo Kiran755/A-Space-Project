@@ -13,10 +13,12 @@ const PlanetComponent = () => {
 
 
     const Increment = () => {
+        console.log(planetNo);
         if (planetNo < 4)
             setPlanetNo(planetNo + 1);
     }
     const Decrement = () => {
+        console.log(planetNo);
         if (planetNo > 1)
             setPlanetNo(planetNo - 1);
     }
@@ -59,9 +61,9 @@ const PlanetComponent = () => {
 
                     </div>
                     <div className='controlUnits'>
-                        {(true) ? (<i className="fa-solid fa-angles-left planetHandlerIcons" onClick={Increment}></i>) : <span></span>}
+                        {(planetNo < 4) ? (<div onClick={Increment}><i className="fa-solid fa-angles-left planetHandlerIcons" ></i></div>) : <span></span>}
                         <h3 style={{ color: "#01fff0" }}>{HandleName()}</h3>
-                        {(true) ? (<i className="fa-solid fa-angles-right planetHandlerIcons" onClick={Decrement}></i>) : <span></span>}
+                        {(planetNo > 1) ? (<div onClick={Decrement}><i className="fa-solid fa-angles-right planetHandlerIcons" ></i></div>) : <span></span>}
 
                     </div>
                 </div>

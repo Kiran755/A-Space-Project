@@ -4,6 +4,7 @@ import { Navbar, NavbarToggler, Collapse, NavbarBrand, Nav, NavItem } from 'reac
 import "./Header.css";
 import { motion, AnimatePresence } from "framer-motion";
 import BottomNavbar from './BottomNavbar';
+import Asteroid from "./assets/Asteroid.png"
 const Header = () => {
     const [open, setOpen] = useState(false);
     const [hide, setHide] = useState(false);
@@ -45,7 +46,7 @@ const Header = () => {
                                 <div className='container'>
                                     <div className='row'>
                                         <NavbarBrand className="mr-auto">
-                                            <img src='Asteroid.png' alt="asteroid" height="50"
+                                            <img src={Asteroid} alt="asteroid" height="50"
                                                 width="50"></img>
                                         </NavbarBrand>
                                         <NavbarToggler onClick={ToggleMenu} />
