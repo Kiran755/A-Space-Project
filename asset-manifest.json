@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/A-Space-Project/static/css/main.91dd9cfc.css",
-    "main.js": "/A-Space-Project/static/js/main.fd00032b.js",
+    "main.css": "/A-Space-Project/static/css/main.5fe0c8a0.css",
+    "main.js": "/A-Space-Project/static/js/main.6450ea31.js",
     "static/media/backImage.jpg": "/A-Space-Project/static/media/backImage.e0d9adbeccecf43b0741.jpg",
+    "static/media/Asteroid.png": "/A-Space-Project/static/media/Asteroid.5f326b6800a0ddf98dd1.png",
     "static/media/earth.svg": "/A-Space-Project/static/media/earth.a280aabbd5373722ccc59a431af0cb32.svg",
     "static/media/mercury.svg": "/A-Space-Project/static/media/mercury.d9d2e8a1a4390db606f9d6ba7805e66a.svg",
     "static/media/venus.svg": "/A-Space-Project/static/media/venus.dd31bc2c604ce52c13c5437c5a05f8d1.svg",
@@ -10,11 +11,11 @@
     "static/media/rocket.svg": "/A-Space-Project/static/media/rocket.32b0e941646859352096632bae6e3909.svg",
     "static/media/Sun.svg": "/A-Space-Project/static/media/Sun.25e17e1fd1d466c3dabf2d893ec3ea4a.svg",
     "index.html": "/A-Space-Project/index.html",
-    "main.91dd9cfc.css.map": "/A-Space-Project/static/css/main.91dd9cfc.css.map",
-    "main.fd00032b.js.map": "/A-Space-Project/static/js/main.fd00032b.js.map"
+    "main.5fe0c8a0.css.map": "/A-Space-Project/static/css/main.5fe0c8a0.css.map",
+    "main.6450ea31.js.map": "/A-Space-Project/static/js/main.6450ea31.js.map"
   },
   "entrypoints": [
-    "static/css/main.91dd9cfc.css",
-    "static/js/main.fd00032b.js"
+    "static/css/main.5fe0c8a0.css",
+    "static/js/main.6450ea31.js"
   ]
 }
