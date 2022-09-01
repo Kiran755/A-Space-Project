@@ -6,19 +6,17 @@ import Earth from './Earth';
 import Header from "./Header";
 import Mars from './Mars';
 import Venus from './Venus';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const PlanetComponent = () => {
     const [planetNo, setPlanetNo] = useState(1);
 
 
     const Increment = () => {
-        console.log(planetNo);
         if (planetNo < 4)
             setPlanetNo(planetNo + 1);
     }
     const Decrement = () => {
-        console.log(planetNo);
         if (planetNo > 1)
             setPlanetNo(planetNo - 1);
     }
@@ -48,6 +46,8 @@ const PlanetComponent = () => {
                 return "Earth";
             case 4:
                 return "Mars";
+            default:
+                return "Earth";
         }
     }
     return (

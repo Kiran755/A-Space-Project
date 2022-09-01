@@ -6,11 +6,9 @@ const RenderPlanet = () => {
     const navigate = useNavigate();
     const params = useParams();
     const id = params.id;
-    console.log(id);
     const planetDetail = Data.filter((planet) => {
         return planet.id === id;
     })
-    console.log(planetDetail);
     const HandleBack = () => {
         navigate("/planets");
     }
@@ -20,7 +18,7 @@ const RenderPlanet = () => {
                 <i className="fa-solid fa-arrow-left"></i>
             </div>
             <div className='PlanetSVG'>
-                <img src={process.env.PUBLIC_URL + planetDetail[0].image}></img>
+                <img src={process.env.PUBLIC_URL + planetDetail[0].image} alt="planetDetails"></img>
             </div>
             <div className="PlanetData">
                 <div className='ShortDetails'>
