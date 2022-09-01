@@ -1,7 +1,11 @@
 # A space Project
 
+## Published Website(Alpha 1.0.0)
+<https://kiran755.github.io/A-Space-Project>
+
 
 ## A website about space.
+
 
 
 ## logo of the website(might change later)
@@ -38,5 +42,6 @@
 ### 4)Mars
 |![Mars](/src/components/assets/mars.svg)|
 |:--:|
-|*Mars(This is genuine mistake on my side, I made mars smaller than mercury whereas it is the other way around lol)*|
+|*Mars(This is a genuine mistake on my side, I made mars smaller than mercury whereas it is the other way around lol)*|
+
 
