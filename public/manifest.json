@@ -5,8 +5,8 @@
   "background_color": "#000000",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/A-Space-Project",
-  "start_url": "/A-Space-Project",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "maskIcon.png",

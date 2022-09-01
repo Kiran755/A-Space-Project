@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/A-Space-Project" element={<SplashScreen />}></Route>
+        <Route path="/" element={<SplashScreen />}></Route>
         <Route path="/Header" element={<Header />}></Route>
         <Route path="/planets" element={<PlanetComponent />}></Route>
         <Route path="/planets/:id" element={<RenderPlanet />}></Route>

@@ -11,7 +11,7 @@ const BottomNavbar = () => {
                 exit={{ y: "5vh", opacity: 0 }}
                 transition={{ duration: 0.8, type: "spring", stiffness: 120 }}
             >
-                <NavLink to="/A-Space-Project" className="navlinks"><i className="fa-solid fa-house"></i><span className="navText">Home</span></NavLink>
+                <NavLink to="/" className="navlinks"><i className="fa-solid fa-house"></i><span className="navText">Home</span></NavLink>
                 <NavLink to="/List" className="navlinks"><i className="fa-solid fa-earth-oceania"></i><span className="navText">Planets</span></NavLink>
                 <NavLink to="/orbitviewer" className="navlinks"><i className="fa-solid fa-binoculars"></i><span className="navText">View</span></NavLink>
                 <NavLink to="/aboutme" className="navlinks"><i className="fa-solid fa-user"></i><span className="navText">About me</span></NavLink>

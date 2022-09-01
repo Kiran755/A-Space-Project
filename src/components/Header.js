@@ -53,7 +53,7 @@ const Header = () => {
                                         <Collapse isOpen={open} navbar>
                                             <Nav navbar className='SpreadNav'>
                                                 <NavItem>
-                                                    <NavLink className="nav-link custom-nav-item" to="/A-Space-Project"><i className="fa-solid fa-house"></i>Home</NavLink>
+                                                    <NavLink className="nav-link custom-nav-item" to="/"><i className="fa-solid fa-house"></i>Home</NavLink>
                                                 </NavItem>
                                                 <NavItem>
                                                     <NavLink className="nav-link custom-nav-item" to="/List"><i className="fa-solid fa-earth-oceania"></i>Planets</NavLink>
