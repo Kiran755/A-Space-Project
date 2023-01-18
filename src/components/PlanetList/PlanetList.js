@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "./PlanetList.css";
-import Data from './PlanetData';
+import Data from '../Data/PlanetData';
 import { motion } from "framer-motion";
 const List = (props) => {
     return (

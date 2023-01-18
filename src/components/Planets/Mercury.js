@@ -1,11 +1,11 @@
-import React from 'react'
-import earth from "./assets/earth.svg";
-import "./PlanetComponent.css";
+import React from 'react';
+import mercury from "../assets/mercury.svg";
+import "../PlanetComponent/PlanetComponent.css";
 import { motion } from "framer-motion";
-const Earth = () => {
+const Mercury = () => {
     return (
         <>
-            <motion.img src={earth} className="planetSource" alt="earth.svg"
+            <motion.img src={mercury} className="planetSource" alt="mercury.svg"
                 initial={{ x: '10vw', opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, type: "spring", stiffness: 120 }}
@@ -14,4 +14,4 @@ const Earth = () => {
     )
 }
 
-export default Earth
+export default Mercury

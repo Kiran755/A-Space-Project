@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import "./Splashscreen.css";
 import { motion } from "framer-motion";
-import Rocket from "./assets/rocket.svg";
+import Rocket from "../assets/rocket.svg";
 import { useNavigate } from "react-router-dom";
 const SplashScreen = () => {
     const navigate = useNavigate();

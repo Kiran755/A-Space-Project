@@ -1,11 +1,11 @@
 import { React, useState } from 'react'
 import "./PlanetComponent.css";
-import Sun from "./assets/Sun.svg";
-import Mercury from './Mercury';
-import Earth from './Earth';
-import Header from "./Header";
-import Mars from './Mars';
-import Venus from './Venus';
+import Sun from "../assets/Sun.svg";
+import Mercury from '../Planets/Mercury';
+import Earth from '../Planets/Earth';
+import Header from "../Header/Header";
+import Mars from '../Planets/Mars';
+import Venus from '../Planets/Venus';
 import { Link } from 'react-router-dom';
 
 const PlanetComponent = () => {

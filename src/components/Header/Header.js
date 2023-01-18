@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 import { Navbar, NavbarToggler, Collapse, NavbarBrand, Nav, NavItem } from 'reactstrap'
 import "./Header.css";
 import { motion, AnimatePresence } from "framer-motion";
-import BottomNavbar from './BottomNavbar';
-import Asteroid from "./assets/Asteroid.png"
+import BottomNavbar from '../Navbar/BottomNavbar';
+import Asteroid from "../assets/Asteroid.png"
 const Header = () => {
     const [open, setOpen] = useState(false);
     const [hide, setHide] = useState(false);

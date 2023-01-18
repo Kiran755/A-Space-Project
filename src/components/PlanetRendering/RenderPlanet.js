@@ -1,6 +1,6 @@
 import React from 'react'
 import "./RenderPlanet.css";
-import Data from "./PlanetData";
+import Data from "../Data/PlanetData";
 import { useParams, useNavigate } from 'react-router-dom';
 const RenderPlanet = () => {
     const navigate = useNavigate();
