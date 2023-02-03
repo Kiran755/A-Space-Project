@@ -1,0 +1,40 @@
+.shortInfoContainer {
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 0.4px black;
+    display: flex;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.svg {
+    font-size: 40px;
+    /* border: 1px solid white; */
+
+}
+
+.info {
+    margin: 10px;
+    font-size: 25px;
+    /* border: 1px solid white; */
+}
+
+.title {
+    /* border: 1px solid aqua; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border-radius: 15px 15px 0px 0px;
+    font-weight: 600;
+    font-size: 20px;
+}

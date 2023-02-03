@@ -1,5 +1,7 @@
 .HeaderNav {
+
     position: absolute;
+    height: 50px;
     top: 15px;
     right: 300px;
     left: 300px;
@@ -12,6 +14,8 @@
 .custom-nav-item {
     color: aqua !important;
     cursor: pointer;
+    /* height: 20px; */
+    margin-bottom: 55px;
 }
 
 .view {
@@ -21,6 +25,7 @@
 
 .SpreadNav {
     width: 100%;
+    /* height: 15px; */
     display: flex;
     /* padding: 10px; */
     font-size: 18px;
