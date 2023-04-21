@@ -23,7 +23,7 @@ const Data = [
         Mass: "4.867 x 10^24 kg",
         Radius: "6,051.8km",
         Position: "Second",
-        Atmosphere: "9100 kiloPascals(approx. 90 times stronger than earth's)",
+        Atmosphere: "9100 kiloPascals",
         SurfaceTemperature: "",
         Habitable: "No",
         Gravity: "8.87 m/s^2",
